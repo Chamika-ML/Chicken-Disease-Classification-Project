@@ -24,7 +24,8 @@ class ModelTrainingPipeline:
         training.train(
             callback_list = callback_list
         )
-
+        
+# for dvc
 if __name__ == '__main__':
     try:
         logger.info(f"*******************")
